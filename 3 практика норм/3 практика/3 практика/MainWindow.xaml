@@ -1,0 +1,41 @@
+﻿<Window x:Class="_3_практика.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3_практика"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="1 задание">
+                <Grid Height="409" Margin="0,0,-2,0">
+                    <Label Content="Введите число 1" Margin="0,21,502,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="256" Height="25" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="varX" TextWrapping="Wrap" Text="" Height="23" Margin="0,60,558,0"  VerticalAlignment="Top" HorizontalAlignment="Right" Width="200" Grid.ColumnSpan="2"/>
+                    <Label Content="Введите число 2" Margin="0,104,502,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="256" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="varY" TextWrapping="Wrap" Text="" Height="23" Margin="0,142,558,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="200" Grid.ColumnSpan="2"/>
+                    <Label Content="Введите число 3" Margin="0,187,502,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="256"/>
+                    <TextBox x:Name="varZ" TextWrapping="Wrap" Text="" Height="24" Margin="0,218,558,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="200"/>
+                    <Label Content="Ответ: " x:Name="rez" HorizontalAlignment="Right" Margin="0,275,558,0" VerticalAlignment="Top" Width="200"/>
+                    <Button Content="Решить" Click="решить" HorizontalAlignment="Right" Margin="0,329,558,0" VerticalAlignment="Top" Width="200"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="2 задание">
+                <Grid>
+                    <Label Content="Введите число х"  Margin="0,10,549,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="256" Height="25"/>
+                    <TextBox HorizontalAlignment="Right" x:Name="varXSecond" Margin="0,43,593,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212" Height="43"/>
+                    <Button Content="Решить" Click="secondClik" HorizontalAlignment="Right" Margin="0,97,593,0" VerticalAlignment="Top" Width="212" Height="40"/>
+                    <Label Content="Ответ:" x:Name="rez1" Margin="0,142,549,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="256" Height="25"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="3 задание">
+                <Grid>
+                    <Label Content="Введите число х"  Margin="0,10,549,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="256" Height="25"/>
+                    <TextBox HorizontalAlignment="Right" x:Name="varXThird" Margin="0,43,593,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="212" Height="43"/>
+                    <Button Content="Решить" Click="ThirdClik" HorizontalAlignment="Right" Margin="0,97,593,0" VerticalAlignment="Top" Width="212" Height="40"/>
+                    <Label Content="Ответ:" x:Name="rez2" Margin="0,142,549,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="256" Height="25"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

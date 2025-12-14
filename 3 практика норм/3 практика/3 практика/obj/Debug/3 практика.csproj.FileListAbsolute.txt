@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\3 практика норм\3 практика\3 практика\obj\Debug\3 практика.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\3 практика норм\3 практика\3 практика\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\3 практика норм\3 практика\3 практика\obj\Debug\App.g.cs
+C:\Users\user\Desktop\3 практика норм\3 практика\3 практика\obj\Debug\3 практика_MarkupCompile.cache
+C:\Users\user\Desktop\3 практика норм\3 практика\3 практика\obj\Debug\3 практика_MarkupCompile.lref
